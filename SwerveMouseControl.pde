@@ -31,7 +31,7 @@
 // the current x-y input, and move the mouse perpendicular to the frozen path to do turn input. It's janky, but i'm not really sure how to do 3-axis
 // analog input with only 2-axis input from the mouse.
 
-// i wrote this a while ago, as a temprary interim between working the kinematics out on paper and
+// i wrote this a while ago, as a temporary interim between working the kinematics out on paper and
 // actually implementing them on the robot. Hence, there's pretty much no comments, and about 80%
 // of this code is GUI awfulness. I apologize in advance for what you're about to read.
 
