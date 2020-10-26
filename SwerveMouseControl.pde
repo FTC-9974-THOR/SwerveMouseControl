@@ -16,7 +16,7 @@
 // calculates them by simulating the path of the robot. The only thing that desired movement speed effects is how fast the robot moves along this path.
 // the speed of a wheel going through a turn is proportional to the radius of the arc transcribed by the wheel. Since the kinematics knows this radius,
 // it's easy to calculate a speed coefficient for each wheel. the outermost wheel will have a coefficient of 1, as it will be moving the fastest. a
-// wheel that lies directly on the center of rotation (and thus has a turning radius of 0) will not move at all, and have a coefficient of 1. a wheel
+// wheel that lies directly on the center of rotation (and thus has a turning radius of 0) will not move at all, and have a coefficient of 0. a wheel
 // that lies at 50mm away from the center of the turn will move at half the speed of a wheel that lies at 100mm away.
 // given these speed coefficients, the kinematics must mix these with the desired movement speed. This is tricky, as movement speed and turning speed
 // are typically completely independent, such as in mecanum kinematics. however, this kinematic model treats movement and turning as the same motion,
